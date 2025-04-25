@@ -1,7 +1,7 @@
 # Traefik Plugin Metadata
 ---
 
-displayName: Simple No AI Bot
+displayName: No AI Bots Middleware with robots.txt
 type: middleware
 
 import: github.com/edelbluth/tm_no_ai_bots

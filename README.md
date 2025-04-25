@@ -1,6 +1,6 @@
-![No AI Bot Middleware with robots.txt for Traefik](./.assets/banner.png)
+![No AI Bots Middleware with robots.txt for Traefik](./.assets/banner.png)
 
-# No AI Bot Middleware with robots.txt
+# No AI Bots Middleware with robots.txt
 
 Repeatedly, bots and crawlers from AI companies generate significant load on web
 applications. The `robots.txt` file is often disregarded, or bots do not consider

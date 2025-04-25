@@ -1,0 +1,20 @@
+{
+    "name": "tm-no-ai-bot",
+    "postCreateCommand": "just init",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "golang.Go",
+                "ms-vscode-remote.remote-containers",
+                "DavidAnson.vscode-markdownlint",
+                "premparihar.gotestexplorer",
+                "skellock.just",
+                "redhat.vscode-yaml",
+                "bierner.markdown-preview-github-styles"
+            ]
+        }
+    }
+}

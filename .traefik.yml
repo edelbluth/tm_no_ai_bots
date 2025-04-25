@@ -1,0 +1,28 @@
+# Traefik Plugin Metadata
+---
+
+displayName: Simple No AI Bot
+type: middleware
+
+import: github.com/edelbluth/tm_no_ai_bots
+
+bannerPath: .assets/banner.png
+iconPath: .assets/icon.png
+
+summary: Traefik Middleware to block AI bots
+
+testData:
+  botPatterns:
+    - gptbot
+    - amazon
+    - bytespider
+    - openai
+    - chatgpt
+    - perplexity
+    - ccbot
+    - google-extended
+    - omgili
+    - anthropic
+    - claude
+    - cohere
+    - meta-extern

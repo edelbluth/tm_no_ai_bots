@@ -48,7 +48,7 @@ experimental:
   plugins:
     TmNoAiBotsPlugin:
       moduleName: "github.com/edelbluth/tm_no_ai_bots"
-      version: "v0.2.0"
+      version: "v0.2.2"
 ```
 
 ### Dynamic Configuration

@@ -4,7 +4,7 @@ import (
 	"net/http"
 )
 
-func (t *TmNoAiBot) ServeHTTP(res http.ResponseWriter, req *http.Request) {
+func (t *TmNoAiBots) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 	for _, uaHeader := range req.Header.Values("User-Agent") {
 		if t.Matcher.MatchString(uaHeader) {
 			if req.URL.Path == "/robots.txt" {

@@ -1,5 +1,8 @@
 ![No AI Bots Middleware with robots.txt for Traefik](./.assets/banner.png)
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/edelbluth/tm_no_ai_bots)](https://goreportcard.com/report/github.com/edelbluth/tm_no_ai_bots)
+[![Go (with just)](https://github.com/edelbluth/tm_no_ai_bots/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/edelbluth/tm_no_ai_bots/actions/workflows/go.yml)
+
 # No AI Bots Middleware with robots.txt
 
 Repeatedly, bots and crawlers from AI companies generate significant load on web
@@ -48,7 +51,7 @@ experimental:
   plugins:
     TmNoAiBotsPlugin:
       moduleName: "github.com/edelbluth/tm_no_ai_bots"
-      version: "v0.2.2"
+      version: "v0.2.4"
 ```
 
 ### Dynamic Configuration

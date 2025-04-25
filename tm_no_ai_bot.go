@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-type TmNoAiBot struct {
+type TmNoAiBots struct {
 	next    http.Handler
 	name    string
 	config  *Config
@@ -28,7 +28,7 @@ func New(ctx context.Context, next http.Handler, config *Config, name string) (h
 	if err != nil {
 		return nil, err
 	}
-	return &TmNoAiBot{
+	return &TmNoAiBots{
 		next:    next,
 		name:    name,
 		config:  config,

@@ -1,5 +1,5 @@
 {
-    "name": "tm-no-ai-bot",
+    "name": "tm-no-ai-bots",
     "postCreateCommand": "just init",
     "dockerFile": "Dockerfile",
     "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
